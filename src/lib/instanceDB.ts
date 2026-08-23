@@ -26,6 +26,8 @@ export const instanceDB: Record<string, string> = {
   '-31': 'PVP Season 1 (Conquest)',
   '-30': 'PVP Season 1 (Honor)',
   '-1': 'Dungeons',
+  '1320': 'The Venomous Abyss',
+  '1317': 'The Tidebound Grotto',
   '1312': 'World Bosses',
   '1314': 'Dreamrift',
   '1307': 'The Voidspire',
@@ -146,19 +148,40 @@ export const retailInstanceDB: Record<number | '-1', RaidInstanceEntry | Dungeon
       999: 'BoE Trash Drops & Catalyst',
     },
   },
+  1317: {
+    name: 'The Tidebound Grotto',
+    bossOrder: [2888, 2874, 2894, 2882, 2871, 2887, 2883, 2895],
+    bosses: {
+      2888: 'Nek\'zali the Soulcoiler',
+      2874: 'Entombed Sentinels',
+      2894: 'The Lost Explorers',
+      2882: 'Vashnik the Malignant',
+      2871: 'Sszorak',
+      2887: 'The Twin Fangs',
+      2883: 'The Coiled Altar',
+      2895: 'Ula\'tek',
+    },
+  },
+  1320: {
+    name: 'The Venomous Abyss',
+    bossOrder: [2850],
+    bosses: {
+      2850: 'Viperis',
+    },
+  },
   /* -------------------------------- Dungeons -------------------------------- */
   '-1': {
     Retail: {
       bossOrder: [],
-      bossOrderMythicPlus: [1315, 1316, 1300, 1299, 1201, 278, 476, 945],
-      1315: 'Maisara Cavern',
-      1316: 'Nexus-Point Xenas',
-      1300: 'Magisters Terrace',
-      1299: 'Windrunner Spire',
-      1201: "Algeth'ar Academy",
-      278: 'Pit of Saron',
-      476: 'Skyreach',
-      945: 'Seat of the Triumvirate',
+      bossOrderMythicPlus: [1313, 1309, 1030, 1202, 1304, 1041, 1311, 1322],
+      1313: "Voidscar Arena",
+      1309: "The Blinding Vale",
+      1030: "Temple of Sethraliss",
+      1202: "Ruby Life Pools",
+      1304: "Murder Row",
+      1041: "Kings' Rest",
+      1311: "Den of Nalorakk",
+      1322: "Altar of Fangs"
     },
     Classic: {
       bossOrder: [],

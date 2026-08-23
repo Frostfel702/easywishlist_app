@@ -44,21 +44,21 @@ export const CONSTANTS: AppConstants = {
   },
   socketSlots: ['Head', 'Neck', 'Wrist', 'Finger', 'Waist'],
   seasonalItemConversion: 12, // 6 = S2, 7 = S3, 8 = ??, 9 = S4. This value is used to determine if an item can be catalyzed.
-  currentRaidIDs: [1307, 1314, 1308], // This should be an array even with one raid. This value is used in various array specific functions.
-  currentDungeonIDs: [1315, 1316, 1300, 1299, 1201, 278, 476, 945],
+  currentRaidIDs: [1320, 1317], // This should be an array even with one raid. This value is used in various array specific functions.
+  currentDungeonIDs: [1313, 1309, 1030, 1202, 1304, 1041, 1311, 1322],
   fullItemLevels: [
     200, 203, 206, 210, 214, 217, 220, 224, 227, 230, 233, 237, 240, 243, 246, 250, 253, 256, 259,
-    263, 266, 269, 272, 276, 279, 282, 285, 289,
+    263, 266, 269, 272, 276, 279, 282, 285, 289, 292, 295, 298, 302, 305, 308, 311, 315, 318, 321, 324, 328, 331, 334,
   ],
   itemLevelCaps: {
-    Explorer: 224,
-    Adventurer: 237,
-    Veteran: 250,
-    Champion: 263,
-    Hero: 276,
-    Myth: 289,
-    'Runed Crafted': 272,
-    'Gilded Crafted': 285,
+    Explorer: 269,
+    Adventurer: 282,
+    Veteran: 295,
+    Champion: 308,
+    Hero: 321,
+    Myth: 334,
+    'Runed Crafted': 318,
+    'Gilded Crafted': 331,
   },
   bossNPCIDs: {
     // Unused
